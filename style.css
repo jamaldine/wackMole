@@ -1,0 +1,32 @@
+.grid{
+    display: flex;
+    /*flex-wrap: wrap;
+    flex-direction: row;*/
+    flex-flow: wrap row;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+}
+.mole{
+    background-image: url('mole.jpg');
+    background-size: 100% 100%;
+}
+.ten{
+    color: red;
+    animation: redAnim 200ms 100ms ease-in linear;
+}
+@keyframes redAmin {
+    0% {
+        color: red;
+    }
+    70% {
+        color: salmon;
+    }
+}
